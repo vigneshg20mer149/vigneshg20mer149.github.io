@@ -1,0 +1,43 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("back2.jpg");
+    background-size: cover;
+    
+    
+    font-family: sans-serif;
+}
+.menubar
+{
+    background-color:darkgreen;
+    color:chartreuse;
+    text-align: center;
+}
+.menubar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: aliceblue;
+}
+.menubar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menubar ul li a
+{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+.active, .menubar ul li:hover
+{
+    background:#2bad0d;
+    border-radius: 3px;
+}
