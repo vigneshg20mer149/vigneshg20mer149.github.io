@@ -1,0 +1,136 @@
+.dropdown{
+    border:2px solid rgb(167, 167, 167);
+    text-align: end;
+    padding-right: 2%;
+    background-color:rgb(153, 204, 50);
+    height: 35px;
+    padding-top: 1%;
+}
+a #log{
+    font-weight:bolder;
+}
+a #abt{
+    padding-right: 2%;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+a #set{
+    padding-right: 2%;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+a #theme{
+    padding-right: 2%;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+#log{
+    padding-right: 2%;
+    text-transform: capitalize;
+}
+#abt{
+    padding-right: 2%;
+    text-transform: capitalize;
+}
+#set{
+    padding-right: 2%;
+    text-transform: capitalize;
+}
+#theme{
+    padding-right: 2%;
+    text-transform: capitalize;
+}
+#mainframe{
+    text-align: center;
+    font-weight:bolder;
+}
+#welcome{
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+.abt_drop{
+    font-weight: lighter;
+    top: 18.5%;
+    border:2px solid white;
+    width: 8%;
+    text-align: center;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800px;
+    font-size: small;
+    background-color:white;
+    box-shadow: 2px 2px grey,0px 0px 1px 1px grey;
+    margin-left: 73.8%;
+    position: absolute;
+    visibility: hidden;
+    transition: 0.15s;
+}
+.log_drop{
+    top: 18.5%;
+    border:2px solid white;
+    width: 8%;
+    text-align: center;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800px;
+    font-size: small;
+    background-color:white;
+    box-shadow: 2px 2px grey,0px 0px 1px 1px grey;
+    margin-left: 78.65%;
+    visibility: hidden;
+    position: absolute;
+    font-weight: lighter;
+    transition: 0.15s;
+}
+.set_drop{
+    top: 18.5%;
+    border:2px solid white;
+    width: 8%;
+    text-align: center;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800px;
+    font-size: small;
+    background-color:white;
+    box-shadow: 2px 2px grey,0px 0px 1px 1px grey;
+    margin-left: 83.9%;
+    visibility: hidden;
+    position: absolute;
+    font-weight: lighter;
+    transition: 0.15s;
+}
+.theme_drop{
+    top: 18.5%;
+    border:2px solid white;
+    width: 8%;
+    text-align: center;
+    border-radius: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:800px;
+    font-size: small;
+    background-color:white;
+    box-shadow: 2px 2px grey,0px 0px 1px 1px grey;
+    margin-left: 89.45%;
+    visibility: hidden;
+    position: absolute;
+    font-weight: lighter;
+    transition: 0.15s;
+}
+body{
+    background-color: ghostwhite;
+}
+.dropdown #abt:hover .abt_drop{
+    visibility: visible;
+}
+.dropdown #log:hover .log_drop{
+    visibility: visible;
+}
+.dropdown #set:hover .set_drop{
+    visibility: visible;
+}
+.dropdown #theme:hover .theme_drop{
+    visibility: visible;
+}
+p:hover{
+    font-weight:600;
+}
