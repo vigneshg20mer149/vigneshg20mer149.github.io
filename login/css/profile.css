@@ -1,0 +1,100 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: inherit;
+  background-color: #EBF1F4;
+}
+li {
+  float: left;
+  display: inline;
+  padding: 20px;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #706F71;
+}
+#signin{
+    padding-left: 60%;
+    position:absolute;
+    border: 1px solid greenyellow;
+    box-sizing: border-box;
+    border-width: inherit;
+}
+#signup{
+    padding-left: 50%;
+    position: absolute;
+}
+#brand{
+ font-size: large;
+ padding: 17.85px;
+}
+.navbar{
+    justify-content: space-between;
+}
+#user{
+    margin-left: 55%;
+}
+.login{
+    border: 0px solid;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.greet{
+    text-align: cnter;
+    padding-top: 30px;
+    
+}
+table{
+    margin-top: 5%;
+    text-align: center;
+    padding: 40px;
+    padding-left: 25%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+td{
+    padding:20px;
+}
+button{
+    background-color: greenyellow;
+    width:78%;
+    margin-left: 2%;
+    margin-top: 10%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    background-color: #EBF1F4;
+}
+.ftable{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-bottom: 10px;
+}
+.com{
+    margin-right: 1%;
+}
+.logout{
+    margin-left:180%;
+    padding-left: 300%;
+}
+.brand{
+    display: none;
+}

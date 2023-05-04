@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp-GoTech</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="brand">Go-Tech</li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a id="signin" href="./login.html">Sign In</a></li>
+            <li><a id="signup" href="./register.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="login">
+        <h2 class="greet">Welcome,</h2>
+        <h2 class="greet1">Sign Up to Continue,</h2>
+        <h4 id="err-msg">Please fill out all the necessary details</h4>
+        <h4 id="usr-exist">User already exist please login to continue</h4>
+        <form name="form" action="https:localhost/login/profile.html"  onsubmit="return validate();" method="post">
+            <input type="text" autocomplete="off" id="name" name="name" placeholder="Name">
+            <div id="name-err">This field could not be empty.</div>
+            <br><br>
+            
+            <input type="email" autocomplete="off" id="email" name="email" placeholder="E-mail Id">
+            <div id="email-err">This field could not be empty.</div>
+            <br><br>
+            
+            <input type="text" autocomplete="off" id="username" name="username" placeholder="UserName">
+            <div id="user-err">This field could not be empty.</div>
+            <div id="user-unavl">This Username has already been taken</div>
+            <br><br>
+            
+            
+            
+            <input type="password" placeholder="Password" name="password" id="password">
+            
+            <div id="pass-err">Passwords must match</div>
+            <div id="len-err">Password length must be greater than 8</div>
+            <br><br>
+            <input type="password" placeholder="Confirm Password" name="pass" id="password1">
+            <div id="pass-err1">Password must match</div>
+            <br>
+            <button type="submit" name="submit">SIGN UP</button>
+        </form>
+        
+        
+        <table>
+            <tr>
+                <td><h4>Already have an account?</h4></td>
+                <td><a href="./login.html" >Sign In</a></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./js/register.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

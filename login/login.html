@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-GoTech</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li id="brand">Go-Tech</li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a id="signin" href="./login.html">Sign In</a></li>
+            <li><a id="signup" href="./register.html">Sign Up</a></li>
+        </ul>
+    </nav>
+    
+    <div class="login">
+        <h2 class="greet">Welcome,</h2>
+        <h2 class="greet1">Log In to Continue,</h2>
+        <div id="error-message"></div>
+        <form name="form" action="http://localhost/login/php/login.php" onsubmit="return validate()"  method="post">
+            <input type="text" autocomplete="off" class="username" name="username" placeholder="UserName">
+            <img src="./assets/user-solid.svg" alt="user-solid-icon" >
+            <div id="user-err">Please input a valid Username</div>
+            <br><br>
+            <input type="password" placeholder="Password" name="pass">
+            <img src="./assets/lock-solid.svg" alt="lock-solid-icon">
+            <div id="pass-err">Please input your Password</div>
+            <br>
+            <button type="submit">LOG IN</button>
+        </form>
+        
+        
+        <br>
+        
+        <table>
+            <tr>
+                <td><h4>Don't have an account?</h4></td>
+                <td><a href="./register.html" >Sign Up</a></td>
+            </tr>
+        </table>
+    </div>
+    <script src="./js/login.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

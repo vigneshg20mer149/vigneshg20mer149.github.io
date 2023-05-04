@@ -1,0 +1,105 @@
+body{
+    background-color: aliceblue;
+}
+
+.btn1{
+    margin-left: 10%;
+}
+.btn2{
+    margin-left: 150%;
+    margin-right: 10%;
+}
+li{
+    margin-left: 20px;
+    
+}
+.navbar{
+    position:fixed;
+    
+}
+.flex{
+    display: flex;
+    float: left;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-bottom: 30px;
+}
+img{
+    width: 34%;
+    height: 20%;
+    margin-left: 10%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: inherit;
+  background-color: #EBF1F4;
+}
+li {
+  float: left;
+  display: inline;
+  padding: 20px;
+}
+
+a {
+  
+  text-decoration: none;
+  color: #706F71;
+}
+#signin{
+    padding-left: 45%;
+    position:absolute;
+    border: 1px solid greenyellow;
+    box-sizing: border-box;
+    border-width: inherit;
+}
+#signup{
+    margin-left: 48%;
+    position: absolute;
+}
+#brand{
+ font-size: large;
+ padding: 17.7px;
+}
+
+.details{
+    border: 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    width:80%;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+    padding: 20px;
+}
+span{
+    margin-right: 82%;
+}
+p{
+    padding-left: 20px;
+    font-weight:normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-indent: 4px;
+
+}
+
+.footer{
+    text-align: center;
+    align-items: center;
+    background-color: #EBF1F4;
+}
+
+.com{
+    margin-right: 1%;
+    text-align: center;
+}
+
+table{
+    margin-left: 24%;
+    text-align: center;
+    width: 600px;
+}
